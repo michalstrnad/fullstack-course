@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 .top-container{
@@ -10,7 +11,14 @@ body{
 }
 
 h1{
-    margin-top: 0;
+    font-size: 5.625rem;
+    margin-bottom: auto;
+    margin: 50px auto 20px auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5rem;
 }
 
 .intro{
@@ -30,5 +38,12 @@ h1{
 }
 
 .mountain{
+
+}
+
+.middle-container{
+
+}
+.bottom-container{
 
 }
