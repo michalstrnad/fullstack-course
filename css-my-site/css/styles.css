@@ -1,13 +1,31 @@
+:root{
+    --primary-heading-color: #66BFBF;
+    --secondary-heading-color: #11999E;
+    --header-bg-color: #EAF6F6;
+    --footer-bg-color: #66BFBF;
+    --footer-text-color: #EAF6F6;
+    --footer-link-color: #11999E;
+    --default-margin: 50px auto;
+}
+
 body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
-.top-container{
-    background-color:rgb(174, 234, 238);
-    position: relative;
-    padding-top: 100px;
+hr{
+    border-top: 5px dotted #b7b5b5;
+    width: 55px;
+    margin: 80px auto;
+}
+
+a{
+    color: var(--secondary-heading-color);
+}
+
+h1, h2{
+    color: var(--primary-heading-color);
 }
 
 h1{
@@ -15,10 +33,26 @@ h1{
     margin-bottom: auto;
     margin: 50px auto 20px auto;
     font-family: 'Sacramento', cursive;
+    line-height: 2;
 }
+
 h2{
     font-family: 'Montserrat', sans-serif; 
     font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: var(--secondary-heading-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+}
+
+
+.top-container{
+    background-color: var(--header-bg-color);
+    position: relative;
+    padding-top: 100px;
 }
 
 .intro{
@@ -37,13 +71,59 @@ h2{
     bottom: 300px;
 }
 
-.mountain{
-
+.profile{
+    width: 35%;
+    margin: auto;
 }
 
-.middle-container{
-
+.profile-img{
+    width: 250px;
+    margin: var(--default-margin);
 }
+
+.contact-me .btn{
+    background-color: var(--primary-heading-color);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: var(--default-margin);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
 .bottom-container{
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    padding: 30px;
+}
+.bottom-container p{
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
+.footer-link{
+    color: var(--footer-link-color);
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
 
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row:nth-child(odd) img{
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
 }
