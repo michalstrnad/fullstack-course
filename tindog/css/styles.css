@@ -86,10 +86,13 @@ h2 {
 /* Testimonials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: var(--main-color);
     color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 .carousel-item img {
