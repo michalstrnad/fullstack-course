@@ -50,7 +50,8 @@ h2 {
 }
 
 .title-image {
-    /* width: 30%; */ 
+    width: auto;
+    height: 60%;
     rotate: 25deg;
     position: absolute;
 }
@@ -61,6 +62,7 @@ h2 {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
+    right: 20%;
 }
 
 .featured-item {
